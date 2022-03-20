@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @StateObject var manager = InterpretisManager()
 
     var body: some View {
         if horizontalSizeClass == .regular {
