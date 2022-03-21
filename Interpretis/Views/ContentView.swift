@@ -7,15 +7,16 @@ struct ContentView: View {
     var body: some View {
         if horizontalSizeClass == .regular {
             HStack {
-                TextInputView()
+                TextInputView(input: $manager.input)
                 Divider()
-                TextRenderedView()
+                TextRenderedView(output: manager.output)
             }
+
         } else {
             VStack {
-                TextInputView()
+                TextInputView(input: $manager.input)
                 Divider()
-                TextRenderedView()
+                TextRenderedView(output: manager.output)
             }
         }
     }
@@ -24,11 +25,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
-                .previewDevice("iPhone 13 Mini")
-            ContentView()
+            ContentView(manager: InterpretisManager(text: previewText))
+            ContentView(manager: InterpretisManager(text: previewText))
                 .previewInterfaceOrientation(.landscapeRight)
-                .previewDevice("iPhone 13 Pro Max")
         }
     }
 }
