@@ -1,20 +1,17 @@
 import SwiftUI
 
 struct TextRenderedView: View {
-    var output: String
+    var output: Binding<String>
 
     var body: some View {
-        ScrollView {
-            Text(output)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-                .textSelection(.enabled)
-        }
+        TextEditor(text: output)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
         .padding()
     }
 }
 
 struct TextRenderedView_Previews: PreviewProvider {
     static var previews: some View {
-        TextRenderedView(output: previewText)
+        TextRenderedView(output: .constant(previewText.markdownToHTML()!))
     }
 }

@@ -2,22 +2,30 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
     @StateObject var manager = InterpretisManager()
 
     var body: some View {
-        if horizontalSizeClass == .regular {
-            HStack {
-                TextInputView(input: $manager.input)
-                Divider()
-                TextRenderedView(output: manager.output)
-            }
-
+        if horizontalSizeClass == .compact && verticalSizeClass == .regular {
+            vertical
         } else {
-            VStack {
-                TextInputView(input: $manager.input)
-                Divider()
-                TextRenderedView(output: manager.output)
-            }
+            horizontal
+        }
+    }
+
+    var horizontal: some View {
+        HStack {
+            TextInputView(input: $manager.input)
+            Divider()
+            TextRenderedView(output: $manager.output)
+        }
+    }
+
+    var vertical: some View {
+        VStack {
+            TextInputView(input: $manager.input)
+            Divider()
+            TextRenderedView(output: $manager.output)
         }
     }
 }
