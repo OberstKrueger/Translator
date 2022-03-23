@@ -1,11 +1,22 @@
+import Foundation
 import SwiftUI
+import SwiftyCommonMark
 
 class InterpretisManager: ObservableObject {
     init(text: String = "") {
         input = text
+        output = render(text)
     }
 
-    @Published var input: String
+    @Published var input: String {
+        didSet {
+            output = render(input)
+        }
+    }
 
-    var output: String { return input }
+    var output: String = ""
+
+    func render(_ string: String) -> String {
+        return string.markdownToHTML([ .noBreaks, .unsafe, .validateUTF8]) ?? "CommonMark parsing error."
+    }
 }
