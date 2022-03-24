@@ -29,6 +29,7 @@
 		564350F027E7681A004E5B63 /* InterpretisManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpretisManager.swift; sourceTree = "<group>"; };
 		56474DD127E861A00050FF58 /* PreviewText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewText.swift; sourceTree = "<group>"; };
 		5678CBBD27EC545F00F431D8 /* Interpretis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interpretis.entitlements; sourceTree = "<group>"; };
+		5678CBBE27EC56CE00F431D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		564350D827E75125004E5B63 /* Interpretis */ = {
 			isa = PBXGroup;
 			children = (
+				5678CBBE27EC56CE00F431D8 /* Info.plist */,
 				5678CBBD27EC545F00F431D8 /* Interpretis.entitlements */,
 				564350EB27E7666E004E5B63 /* Views */,
 				564350D927E75125004E5B63 /* InterpretisApp.swift */,
@@ -305,6 +307,7 @@
 				DEVELOPMENT_TEAM = ZM4N24RK3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interpretis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +342,7 @@
 				DEVELOPMENT_TEAM = ZM4N24RK3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interpretis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
