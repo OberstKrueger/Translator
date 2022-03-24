@@ -1,3 +1,4 @@
+#if DEBUG
 var previewText: String = """
                           # Pickled brunch
 
@@ -19,3 +20,4 @@ var previewText: String = """
 
                           Locavore messenger bag cronut, synth small batch adaptogen meggings la croix glossier hexagon 3 wolf moon asymmetrical. Butcher man braid tilde cornhole pickled, keytar shaman yuccie echo park XOXO. Vape tilde tumeric vaporware irony typewriter cray, poke jianbing post-ironic locavore. Biodiesel gluten-free slow-carb tbh bushwick sustainable.
                           """
+#endif

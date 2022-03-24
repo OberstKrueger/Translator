@@ -10,8 +10,10 @@ struct TextRenderedView: View {
     }
 }
 
+#if DEBUG
 struct TextRenderedView_Previews: PreviewProvider {
     static var previews: some View {
         TextRenderedView(output: .constant(previewText.markdownToHTML()!))
     }
 }
+#endif

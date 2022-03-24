@@ -10,8 +10,10 @@ struct TextInputView: View {
     }
 }
 
+#if DEBUG
 struct TextInputView_Previews: PreviewProvider {
     static var previews: some View {
         TextInputView(input: .constant(previewText))
     }
 }
+#endif
