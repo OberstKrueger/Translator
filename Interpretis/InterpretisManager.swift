@@ -1,6 +1,6 @@
 import Foundation
 import SwiftUI
-import SwiftyCommonMark
+import OKCommonMark
 
 class InterpretisManager: ObservableObject {
     init(text: String = "") {

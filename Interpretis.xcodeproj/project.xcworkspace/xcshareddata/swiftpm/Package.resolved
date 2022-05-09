@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "swiftycommonmark",
+      "identity" : "okcommonmark",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/OberstKrueger/SwiftyCommonMark",
+      "location" : "https://github.com/OberstKrueger/OKCommonMark",
       "state" : {
-        "revision" : "6b4f7f23f28636545aef56866f03c1ba4307aea7",
-        "version" : "0.0.1"
+        "revision" : "10fe90410baf37d9922e7143b2a9ee7183c48ef9",
+        "version" : "0.0.2"
       }
     }
   ],

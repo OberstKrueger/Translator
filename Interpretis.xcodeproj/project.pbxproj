@@ -15,7 +15,7 @@
 		564350EA27E75E65004E5B63 /* TextRenderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564350E927E75E65004E5B63 /* TextRenderedView.swift */; };
 		564350F127E7681A004E5B63 /* InterpretisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564350F027E7681A004E5B63 /* InterpretisManager.swift */; };
 		56474DD227E861A00050FF58 /* PreviewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56474DD127E861A00050FF58 /* PreviewText.swift */; };
-		56F3A28A27E884AB00AB741D /* SwiftyCommonMark in Frameworks */ = {isa = PBXBuildFile; productRef = 56F3A28927E884AB00AB741D /* SwiftyCommonMark */; };
+		569EFBBE282900610022D0A5 /* OKCommonMark in Frameworks */ = {isa = PBXBuildFile; productRef = 569EFBBD282900610022D0A5 /* OKCommonMark */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F3A28A27E884AB00AB741D /* SwiftyCommonMark in Frameworks */,
+				569EFBBE282900610022D0A5 /* OKCommonMark in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			);
 			name = Interpretis;
 			packageProductDependencies = (
-				56F3A28927E884AB00AB741D /* SwiftyCommonMark */,
+				569EFBBD282900610022D0A5 /* OKCommonMark */,
 			);
 			productName = Interpretis;
 			productReference = 564350D627E75125004E5B63 /* Interpretis.app */;
@@ -142,7 +142,7 @@
 			);
 			mainGroup = 564350CD27E75124004E5B63;
 			packageReferences = (
-				56F3A28827E884AB00AB741D /* XCRemoteSwiftPackageReference "SwiftyCommonMark" */,
+				569EFBBC282900610022D0A5 /* XCRemoteSwiftPackageReference "OKCommonMark" */,
 			);
 			productRefGroup = 564350D727E75125004E5B63 /* Products */;
 			projectDirPath = "";
@@ -410,21 +410,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		56F3A28827E884AB00AB741D /* XCRemoteSwiftPackageReference "SwiftyCommonMark" */ = {
+		569EFBBC282900610022D0A5 /* XCRemoteSwiftPackageReference "OKCommonMark" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OberstKrueger/SwiftyCommonMark";
+			repositoryURL = "https://github.com/OberstKrueger/OKCommonMark";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.1;
+				version = 0.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		56F3A28927E884AB00AB741D /* SwiftyCommonMark */ = {
+		569EFBBD282900610022D0A5 /* OKCommonMark */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 56F3A28827E884AB00AB741D /* XCRemoteSwiftPackageReference "SwiftyCommonMark" */;
-			productName = SwiftyCommonMark;
+			package = 569EFBBC282900610022D0A5 /* XCRemoteSwiftPackageReference "OKCommonMark" */;
+			productName = OKCommonMark;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
