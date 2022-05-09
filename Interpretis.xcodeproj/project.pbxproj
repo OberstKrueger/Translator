@@ -32,6 +32,7 @@
 		5678CBBD27EC545F00F431D8 /* Interpretis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interpretis.entitlements; sourceTree = "<group>"; };
 		5678CBBE27EC56CE00F431D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		569EFBBF282901D60022D0A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		569EFBC12829021F0022D0A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				569EFBBF282901D60022D0A5 /* LICENSE */,
+				569EFBC12829021F0022D0A5 /* README.md */,
 				564350D827E75125004E5B63 /* Interpretis */,
 				564350D727E75125004E5B63 /* Products */,
 			);
