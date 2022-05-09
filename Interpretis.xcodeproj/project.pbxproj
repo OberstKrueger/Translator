@@ -16,6 +16,7 @@
 		564350F127E7681A004E5B63 /* InterpretisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564350F027E7681A004E5B63 /* InterpretisManager.swift */; };
 		56474DD227E861A00050FF58 /* PreviewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56474DD127E861A00050FF58 /* PreviewText.swift */; };
 		569EFBBE282900610022D0A5 /* OKCommonMark in Frameworks */ = {isa = PBXBuildFile; productRef = 569EFBBD282900610022D0A5 /* OKCommonMark */; };
+		569EFBC0282901D60022D0A5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 569EFBBF282901D60022D0A5 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		56474DD127E861A00050FF58 /* PreviewText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewText.swift; sourceTree = "<group>"; };
 		5678CBBD27EC545F00F431D8 /* Interpretis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interpretis.entitlements; sourceTree = "<group>"; };
 		5678CBBE27EC56CE00F431D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		569EFBBF282901D60022D0A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		564350CD27E75124004E5B63 = {
 			isa = PBXGroup;
 			children = (
+				569EFBBF282901D60022D0A5 /* LICENSE */,
 				564350D827E75125004E5B63 /* Interpretis */,
 				564350D727E75125004E5B63 /* Products */,
 			);
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569EFBC0282901D60022D0A5 /* LICENSE in Resources */,
 				564350E127E75125004E5B63 /* Preview Assets.xcassets in Resources */,
 				564350DE27E75125004E5B63 /* Assets.xcassets in Resources */,
 			);
