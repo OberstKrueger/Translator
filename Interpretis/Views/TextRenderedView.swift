@@ -6,7 +6,7 @@ struct TextRenderedView: View {
     var body: some View {
         TextEditor(text: output)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-        .padding()
+            .padding()
     }
 }
 
