@@ -1,16 +1,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass
-    @Environment(\.verticalSizeClass) var verticalSizeClass
     @StateObject var manager = InterpretisManager()
 
     var body: some View {
-        if horizontalSizeClass == .compact && verticalSizeClass == .regular {
-            vertical
-        } else {
-            horizontal
+        GeometryReader { geometry in
+            if geometry.frame(in: .global).width > geometry.frame(in: .global).height {
+                horizontal
+            } else {
+                vertical
+            }
         }
+        .ignoresSafeArea(.keyboard)
     }
 
     var horizontal: some View {

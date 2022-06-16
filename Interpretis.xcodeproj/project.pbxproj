@@ -71,7 +71,6 @@
 				5678CBBE27EC56CE00F431D8 /* Info.plist */,
 				5678CBBD27EC545F00F431D8 /* Interpretis.entitlements */,
 				564350EB27E7666E004E5B63 /* Views */,
-				564350D927E75125004E5B63 /* InterpretisApp.swift */,
 				564350F027E7681A004E5B63 /* InterpretisManager.swift */,
 				564350DD27E75125004E5B63 /* Assets.xcassets */,
 				564350DF27E75125004E5B63 /* Preview Content */,
@@ -91,6 +90,7 @@
 		564350EB27E7666E004E5B63 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				564350D927E75125004E5B63 /* InterpretisApp.swift */,
 				564350DB27E75125004E5B63 /* ContentView.swift */,
 				564350E727E75E43004E5B63 /* TextInputView.swift */,
 				564350E927E75E65004E5B63 /* TextRenderedView.swift */,
@@ -346,10 +346,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.Interpretis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,10 +383,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.Interpretis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
