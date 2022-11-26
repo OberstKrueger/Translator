@@ -18,15 +18,16 @@ struct ContentView: View {
         HStack {
             TextInputView(input: $manager.input)
             Divider()
-            TextRenderedView(output: $manager.output)
+            TextRenderedView(output: manager.output)
         }
+        
     }
 
     var vertical: some View {
         VStack {
             TextInputView(input: $manager.input)
             Divider()
-            TextRenderedView(output: $manager.output)
+            TextRenderedView(output: manager.output)
         }
     }
 }

@@ -5,8 +5,9 @@ struct TextInputView: View {
 
     var body: some View {
         TextEditor(text: input)
+            .background()
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-            .padding()
+            .padding() 
     }
 }
 

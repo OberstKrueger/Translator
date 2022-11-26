@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct TextRenderedView: View {
-    var output: Binding<String>
+    var output: String
 
     var body: some View {
-        TextEditor(text: output)
+        TextEditor(text: .constant(output))
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
             .padding()
     }
@@ -13,7 +13,7 @@ struct TextRenderedView: View {
 #if DEBUG
 struct TextRenderedView_Previews: PreviewProvider {
     static var previews: some View {
-        TextRenderedView(output: .constant(previewText.markdownToHTML()!))
+        TextRenderedView(output: previewText.markdownToHTML()!)
     }
 }
 #endif
