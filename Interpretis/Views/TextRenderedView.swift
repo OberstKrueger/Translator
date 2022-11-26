@@ -7,6 +7,7 @@ struct TextRenderedView: View {
         TextEditor(text: .constant(output))
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
             .padding()
+            .scrollContentBackground(.hidden)
     }
 }
 
