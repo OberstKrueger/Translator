@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var manager = InterpretisManager()
+    @StateObject var manager = TranslatorManager()
 
     var body: some View {
         GeometryReader { geometry in
@@ -37,8 +37,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView(manager: InterpretisManager(text: previewText))
-            ContentView(manager: InterpretisManager(text: previewText))
+            ContentView(manager: TranslatorManager(text: previewText))
+            ContentView(manager: TranslatorManager(text: previewText))
                 .previewInterfaceOrientation(.landscapeRight)
         }
     }

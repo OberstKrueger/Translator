@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import OKCommonMark
 
-class InterpretisManager: ObservableObject {
+class TranslatorManager: ObservableObject {
     init(text: String = "") {
         input = text
         output = render(text)
