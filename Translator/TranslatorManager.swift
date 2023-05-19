@@ -17,6 +17,6 @@ class TranslatorManager: ObservableObject {
     var output: String = ""
 
     func render(_ string: String) -> String {
-        return string.markdownToHTML([ .noBreaks, .unsafe, .validateUTF8]) ?? "CommonMark parsing error."
+        return string.markdownToHTML(.noBreaks, .unsafe, .validateUTF8) ?? "CommonMark parsing error."
     }
 }

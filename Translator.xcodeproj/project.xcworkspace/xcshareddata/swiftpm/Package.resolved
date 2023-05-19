@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OberstKrueger/OKCommonMark",
       "state" : {
-        "revision" : "a23689081e55db739c6bf181266180acd09b0ecc",
-        "version" : "0.0.3"
+        "revision" : "531d4a9646993d6e63eca1a9a1b591efccbc5fd7",
+        "version" : "0.0.5"
       }
     }
   ],
